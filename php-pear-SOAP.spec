@@ -21,7 +21,6 @@ Requires:	php-pear-Net_URL
 Requires:	php-pear-Net_DIME
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Implementation of SOAP protocol and services.
