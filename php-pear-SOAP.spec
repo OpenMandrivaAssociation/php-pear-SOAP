@@ -7,7 +7,7 @@
 Summary:	%{_pearname} - Client/Server for PHP
 Name:		php-pear-%{_pearname}
 Version:	0.12.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
