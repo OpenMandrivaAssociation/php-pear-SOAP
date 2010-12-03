@@ -5,7 +5,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.12.0
-Release:	%mkrel 4
+Release:	%mkrel 5
 Summary:	Client/Server for PHP
 License:	PHP License
 Group:		Development/PHP
