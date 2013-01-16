@@ -1,8 +1,6 @@
 %define		_class		SOAP
 %define		upstream_name	%{_class}
 
-%define _requires_exceptions pear(SOAP/test/test.utility.php)
-
 Name:		php-pear-%{upstream_name}
 Version:	0.12.0
 Release:	%mkrel 6
