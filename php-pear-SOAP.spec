@@ -3,7 +3,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.12.0
-Release:	%mkrel 6
+Release:	7
 Summary:	Client/Server for PHP
 License:	PHP License
 Group:		Development/PHP
@@ -18,7 +18,6 @@ Requires:	php-pear-Net_URL
 Requires:	php-pear-Net_DIME
 BuildArch:	noarch
 BuildRequires:	php-pear
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Implementation of SOAP protocol and services.
@@ -28,7 +27,6 @@ Implementation of SOAP protocol and services.
 mv package.xml %{upstream_name}-%{version}/%{upstream_name}.xml
 
 %install
-rm -rf %{buildroot}
 
 cd %{upstream_name}-%{version}
 pear install --nodeps --packagingroot %{buildroot} %{upstream_name}.xml
@@ -41,7 +39,6 @@ install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 %clean
-rm -rf %{buildroot}
 
 
 
