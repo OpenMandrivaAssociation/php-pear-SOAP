@@ -2,13 +2,13 @@
 %define		upstream_name	%{_class}
 
 Name:		php-pear-%{upstream_name}
-Version:	0.12.0
-Release:	7
+Version:	0.13.0
+Release:	1
 Summary:	Client/Server for PHP
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/SOAP/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
+Source0:	http://download.pear.php.net/package/SOAP-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -132,4 +132,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Thu Jan 20 2005 Pascal Terjan <pterjan@mandrake.org> 0.8.1-1mdk
 - First mdk package
+
 
