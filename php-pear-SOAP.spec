@@ -43,11 +43,10 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 
 %files
-%defattr(-,root,root)
 %doc %{upstream_name}-%{version}/example
 %{_datadir}/pear/%{_class}
+%{_datadir}/pear/tools/genproxy.php
 %{_datadir}/pear/packages/%{upstream_name}.xml
-
 
 %changelog
 * Thu May 05 2011 Oden Eriksson <oeriksson@mandriva.com> 0.12.0-6mdv2011.0
