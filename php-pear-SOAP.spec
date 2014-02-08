@@ -3,7 +3,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.13.0
-Release:	1
+Release:	2
 Summary:	Client/Server for PHP
 License:	PHP License
 Group:		Development/PHP
