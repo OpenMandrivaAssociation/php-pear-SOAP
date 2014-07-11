@@ -4,7 +4,7 @@
 Summary:	Client/Server for PHP
 Name:		php-pear-%{modname}
 Version:	0.13.0
-Release:	6
+Release:	7
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/SOAP/
