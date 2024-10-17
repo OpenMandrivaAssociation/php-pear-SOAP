@@ -7,7 +7,7 @@ Version:	0.13.0
 Release:	10
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/SOAP/
+Url:		https://pear.php.net/package/SOAP/
 Source0:	http://download.pear.php.net/package/SOAP-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
